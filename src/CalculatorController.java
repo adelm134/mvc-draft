@@ -1,4 +1,3 @@
-// CalculatorController.java
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,11 +10,9 @@ public class CalculatorController {
         this.view = view;
         this.model = model;
 
-        // Добавляем слушатель к кнопке "Calculate"
         this.view.addCalculationListener(new CalculateListener());
     }
 
-    // Внутренний класс, реализующий ActionListener
     class CalculateListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             int firstNumber, secondNumber = 0;
