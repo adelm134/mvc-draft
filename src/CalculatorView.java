@@ -1,4 +1,3 @@
-// CalculatorView.java
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
@@ -12,7 +11,7 @@ public class CalculatorView extends JFrame {
     public CalculatorView() {
         JPanel panel = new JPanel();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(400, 150);
+        this.setSize(400, 200);
 
         panel.add(new JLabel("First Number:"));
         panel.add(firstNumber);
